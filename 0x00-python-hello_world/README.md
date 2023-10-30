@@ -1,6 +1,4 @@
-# Project README
-
-## Python - Hello, World
+# Python - Hello, World
 
 **Author:** Guillaume
 **Weight:** 1
