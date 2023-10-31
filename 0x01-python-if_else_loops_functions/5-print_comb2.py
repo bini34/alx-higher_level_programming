@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-for i in range(98):
+for i in range(100):
     if i < 10:
-        print(f"0{i}, ", end="")
+        print("0{:d}".format(i), end=", " if i < 99 else "\n")
     else:
-        print(f"{i}, ", end="")
-print("98")
+        print("{:d}".format(i), end=", " if i < 99 else "\n")
