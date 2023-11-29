@@ -495,13 +495,3 @@ del b
 c = "SCHL"
 ```
 
-Assuming we are using a CPython implementation of Python3 with default options/configuration:
-
-- How many `string` objects are created by the execution of the first line of the script?
-- How many `string` objects are created by the execution of the second line of the script?
-- After the execution of line 3, is the `string` object pointed by `a` deleted? Answer with Yes or No.
-- After the execution of line 4, is the `string` object pointed by `b` deleted? Answer with Yes or No.
-- How many `string` objects are created by the execution of the last line of the script?
-
-
-
