@@ -62,3 +62,18 @@ class Rectangle(Base):
 
     def area(self):
         return self.height * self.width
+
+    def display(self):
+
+        if self.width == 0 or self.height == 0:
+            print("")
+            return
+        i = 0
+
+        while(i < self.height):
+            i += 1
+            j = 0
+            while(j < self.width):
+                print("#", end="")
+                j += 1
+            print()
