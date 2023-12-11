@@ -64,18 +64,11 @@ class Rectangle(Base):
         return self.height * self.width
 
     def display(self):
-
-        if self.width == 0 or self.height == 0:
-            print("")
-            return
-        i = 0
-        while (i < self.height):
-            i += 1
-            j = 0
-            while (j < self.width):
-                print("#", end="")
-                j += 1
+        for i in range(self.y):
             print()
+        for i in range(self.height):
+            print(" " * self.x, end="")
+            print("#" * self.width)
 
     def __str__(self):
         return "[Rectangle] ({}) {}/{} - {}/{}".format(
